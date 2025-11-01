@@ -1,5 +1,10 @@
+
+---
+
+## **TWEET — COPY-PASTE READY**
 ## Visualize E8 — HOT PINK BIG BALLS
 ```python
+
 ax.scatter(..., c='hotpink', s=500)
 echo "# E8-Universe-" >> README.md
 # E8-Universe
