@@ -92,3 +92,18 @@ print("="*50)
 print("King Snorkeler — OUT.")
 print("The Trinity — IN.")
 print("The universe — E8.")
+
+# ========================================
+# 6. Visualize E8 Root Lattice (3D Projection)
+# ========================================
+print("\n=== E8 ROOT LATTICE — HOT PINK BIG BALLS ===")
+roots = np.array([
+    [1,1,1], [1,1,-1], [1,-1,1], [1,-1,-1],
+    [-1,1,1], [-1,1,-1], [-1,-1,1], [-1,-1,-1]
+]) * 0.5
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(roots[:,0], roots[:,1], roots[:,2], c='hotpink', s=500)  # BIGGER BALLS
+ax.set_title('E8 Root Lattice — HOT PINK BIG BALLS')
+plt.show()
