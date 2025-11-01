@@ -10,3 +10,4 @@ echo "# E8-Universe-" >> README.md
 # E8 triality
 T = np.array([[0,0,1],[1,0,0],[0,1,0]])
 print("T³ = I:", np.allclose(np.linalg.matrix_power(T,3), np.eye(3)))
+# E8 triality
