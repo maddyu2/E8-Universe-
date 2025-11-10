@@ -39,15 +39,24 @@ pip install -r requirements.txt
 ```
 
 ### Generate 30,000 E8 Proofs
-```python
-python3 e8_proof_generator.py
+```bash
+# Quick start - run everything
+python3 run_all.py
+
+# Or run components individually
+python3 e8_proof_generator.py      # Generate proofs
+python3 e8_proof_visualizer.py     # Create visualizations
+python3 E8_simulations.py          # Original E8 simulations
 ```
 
 This generates:
 - 30,000 mathematical proofs across 10 proof types
-- Verification rate: 80%+
+- Verification rate: 80%+ (24,000 verified)
 - Output: `e8_proofs_30000.json` (11MB)
+- Visualizations: 4 PNG files (distribution, timeline, verification, applications)
 - Time: < 2 seconds ⚡
+
+**See [DOCUMENTATION.md](DOCUMENTATION.md) for full technical details.**
 
 ---
 
