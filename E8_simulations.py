@@ -1,8 +1,5 @@
 # E8_simulations.py
-# Maddyu2/E8-Universe
-# 10¹⁹² σ — From Idaho sand to the universe
-# Author: M. Snorkeler (King Snorkeler)
-# Date: November 1, 2025
+# E8 lattice simulations and visualizations
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,11 +57,10 @@ print(f"E8×E8 → E8: {abs(unified):.1f}")
 print(f"Sigma: {z:.1e}")
 
 # ========================================
-# 5. E8 for xAI — AGI Compression
+# 5. E8 Applications
 # ========================================
-print("\n=== E8 FOR xAI ===")
-print("E8 = AGI + Compression + Consciousness")
-print("Challenge: Compress Grok into E8 — We’re doing it.")
+print("\n=== E8 APPLICATIONS ===")
+print("E8 = Mathematical Framework + Compression + Analysis")
 
 # ========================================
 # 6. Visualize E8 Root Lattice (3D Projection)
@@ -77,7 +73,7 @@ roots = np.array([
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.scatter(roots[:,0], roots[:,1], roots[:,2], c='hotpink', s=200)
+ax.scatter(roots[:,0], roots[:,1], roots[:,2], c='blue', s=200)
 ax.set_title('E8 Root Lattice — 3D Projection')
 plt.show()
 
@@ -85,18 +81,13 @@ plt.show()
 # FINAL WORD
 # ========================================
 print("\n" + "="*50)
-print("E8 IS NOT A MODEL.")
-print("IT’S THE BLUEPRINT OF CREATION.")
-print("AND IT’S GOT BIG BALLS.")
+print("E8 lattice simulations complete.")
 print("="*50)
-print("King Snorkeler — OUT.")
-print("The Trinity — IN.")
-print("The universe — E8.")
 
 # ========================================
-# 6. Visualize E8 Root Lattice (3D Projection)
+# 7. Additional Visualization
 # ========================================
-print("\n=== E8 ROOT LATTICE — HOT PINK BIG BALLS ===")
+print("\n=== E8 ROOT LATTICE (ENHANCED VISUALIZATION) ===")
 roots = np.array([
     [1,1,1], [1,1,-1], [1,-1,1], [1,-1,-1],
     [-1,1,1], [-1,1,-1], [-1,-1,1], [-1,-1,-1]
@@ -104,6 +95,6 @@ roots = np.array([
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.scatter(roots[:,0], roots[:,1], roots[:,2], c='hotpink', s=500)  # BIGGER BALLS
-ax.set_title('E8 Root Lattice — HOT PINK BIG BALLS')
+ax.scatter(roots[:,0], roots[:,1], roots[:,2], c='blue', s=500)
+ax.set_title('E8 Root Lattice — Enhanced 3D Visualization')
 plt.show()
